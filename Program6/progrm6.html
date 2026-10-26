@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+string method and math object</title>
+<style>
+body{
+text-align:center;
+font-family:Arial;
+color:goldenrod;
+font-weight:bold;
+}
+h1{
+text-decoration:underline;
+}
+h2{
+text-decoration:underline;
+}
+</style>
+</head>
+<body>
+<script>
+let str="Iam anu";
+document.write("<h1>Javascript String Method</h1><br><br>");
+document.write(str+"<br>");
+document.write("index of first occurance of 'a'in a string"+str.indexOf('a')+"<br>");
+document.write("index of last occurance of 'a' in a string:"+str.lastIndexOf('a')+"<br>");
+document.write("index of 'are' in a string:"+str.indexOf("are")+"<br>");
+document.write("index of 0to3 print using slice:"+str.slice(0,3)+"<br>");
+document.write("to get substring of string using substr:"+str.substring(2,7)+"<br>");
+document.write("string to uppercase:"+str.toUpperCase()+"<br>");
+document.write("replace anu to arun in a string:"+str.replace("anu","arun")+"<br>");
+document.write("use trip:"+str.trim()+"<br>");
+document.write("new string that have character5 on string:"+str.charAt(5)+"<br>");
+document.write("Print numeric ASCII value character 5 on string:" + str.charCodeAt(5) + "<br>");
+document.write("<h1> Math object </h1>");
+document.write("Math object is a build in object,contains basic mathematical functions and constants<br>"); 
+document.write("value of PI in radian:" + Math.PI+ "<br>");
+document.write("PI in degree: " + (Math.PI * 180 / Math.PI) + "<br>");
+document.write("value of E:" + Math.E + "<br>");
+document.write("sign of -3,print 1 if it is a positive print -1  if it is negative or print 0 if it is zero -1:" + Math.sign(2)+"<br>");
+document.write("The second power of 8 is " + Math.pow(8,2) + "<br>");
+document.write("Round the value 6.7:" + Math.round(6.7) + "<br>");
+document.write("Round the value 4.6:" + Math.round(4.6) + "<br>");
+document.write("Ceil the value 4.4:" + Math.ceil(4.4) +"<br>");
+document.write("Ceil the value 4.6:" + Math.ceil(4.6) +"<br>");
+document.write("Floor value of the value 4.4 is :" + Math.floor(4.4) + "<br>");
+</script>
+</body>
+</html>

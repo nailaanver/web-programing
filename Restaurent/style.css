@@ -1,0 +1,12 @@
+.navbar {
+background-color:black;
+}
+ a{
+color:white;
+text-decoration:none;
+
+}
+.head {
+display:flex;
+justify-content:space-around;
+}
